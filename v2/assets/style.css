@@ -11,9 +11,9 @@
   src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff"); }
 /* Bold */
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 700;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff"); }
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 800;
+  src: url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap"); }
 html, body {
   margin: 0;
   padding: 0;
