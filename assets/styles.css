@@ -28,7 +28,6 @@ article h1, article h2, article h3 {
   margin: 0 0 30px 0;
 }
 article h1 {
-  cursor: crosshair;
   white-space: nowrap;
   margin-top: -100px;
   position: fixed;
@@ -36,7 +35,6 @@ article h1 {
   font-weight: 900;
   font-size: 90px;
   margin-bottom: 0;
-  transition: transform 0.1s ease-out, left 0.05s ease-in, top 0.05s ease-in;
 }
 article h2 {
   margin-top: 100px;
@@ -79,22 +77,7 @@ footer svg {
   display: block;
 }
 
-.explosion {
-  position: absolute;
-  top: 40px;
-  left: 210px;
-  transform: translate(-50%, -50%);
-  opacity: 1;
-  width: 80px;
-  height: 80px;
-  background: url("../img/explosion.png") 0px 0px no-repeat;
-  background-size: 100%;
-}
 
-.explosion.fade-out {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
 
 @media only screen and (min-width: 900px) {
   article {
